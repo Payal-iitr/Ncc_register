@@ -1,0 +1,74 @@
+<!-- index.html (Frontend) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> NCC Registration System</title>
+</head>
+<link rel="stylesheet" href="style03.css" >
+<body >
+    <div>
+        <img src="nccLogo.png" alt="ncc logo" id="logo">&emsp;
+       <h> NCC Registrations for AY 2023-24</h>
+    
+    </div>
+    <br>
+    <main>
+        <form>
+            <img  align="right" src="cadets.jpg" alt="ncc" id="main"  >
+        <label for="name">Name:</label>
+        <input type="text" name="name" required><br><br><br>
+        
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" required><br><br><br>
+        <label for="contact">contact no:</label>
+        <input type="tel" name="contact no" required><br><br><br>
+        
+        
+        
+        <h2>UPLOAD THE FOLLOWING DOCUMENTS:</h2>
+
+        <label for="documents"> college id:</label>
+        <input type="file" name="documents[]"  value="collegeid" multiple required><br><br><br>
+
+        <label for="documents"> 12th marksheet:</label>
+        <input type="file" name="documents[]" value="12thmarksheet" multiple required><br><br><br>
+
+        <label for="documents"> aadhar card:</label>
+        <input type="file" name="documents[]" value="aadharcard" multiple required><br><br><br>
+
+        <label for="documents">category certificate:</label>
+        <input type="file" name="documents[]"  value="category" multiple required><br><br><br>
+
+        <label for="documents"> undertaking:</label>
+        <input type="file" name="documents[]" value="undertaking" multiple required><br><br><br>
+
+        <label for="modules">Select Training Modules:</label><br><br><br>
+        <select name="modules[]" multiple required>
+
+            <option value="module1">Module 1</option>
+            <option value="module2">Module 2</option>
+            <option value="module3">Module 3</option>
+            <option value="module4">Module 4</option>
+            <option value="module5">Module 5</option>
+        </select><br><br><br>
+     
+     
+        <button type="submit">Submit</button>
+    </form>
+    <h3>To obtain more information about NCC activities at IITR, please <a href="https://ncc.iitr.ac.in/" target="_blank">click here</a></h3>
+   
+    <h2>Contact us</h2>
+    <h3>175 Years Committee,<br>IIT Roorkee,<br>Roorkee-247667<br>Uttarakhand, India. <br><br>+91-1332-28-5821</h3>
+    <h2>Know more about us on</h2>
+    <a href="https://www.instagram.com/ncc.iitr/"><img src="insta.jpeg" alt="instagram " height="50px"; width="50px" target="_blank"> </a>
+    <a href="https://www.facebook.com/ncc.iitr/"><img src="facebook.jpeg" alt="facebook"height="50px"; width="50px" target="_blank"></a>
+    <a href="https://www.youtube.com/channel/UCrx5OBkbdv5dldJBDXFfJbA"><img src="youtube.png" alt="you tube"height="50px"; width="50px" target="_blank"></a>
+    
+    <script src="app.js"> </script>  
+
+</main>
+</body>
+</html>

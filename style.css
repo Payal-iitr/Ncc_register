@@ -1,0 +1,30 @@
+body{
+    background-image:url("parade.jpg");
+    background-size: cover;
+    filter: blur(0.9);
+    
+    
+  
+ 
+}
+img{
+    width:500px;
+    height:150px;
+}
+div{
+    width:800px;
+}
+p{
+    color:white ;
+    font-size:large;
+    
+}
+ button {
+        padding: 1rem;
+        font-size: 1.25rem;
+        background-color:#4EFFEF;
+        color: #fff;
+        border-radius: 1rem;
+        border-color: black;
+        border: none;
+}

@@ -1,0 +1,51 @@
+
+
+
+
+body {
+   
+    background-color:gray;
+}
+
+main{
+    justify-content:center;
+   /* background-image: url("nccLogo.png"); 
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin:0;
+    padding: 0;*/
+}
+div{
+    background-color:#131039;
+    color: white;
+    border:1px solid black ;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    
+    height:90px;
+}
+button {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+  }
+#logo{
+    width: 80px;
+    height:80px;
+    align-self: center;
+    
+    
+}
+#main{
+    height:800px;
+    width:1000px;
+    border:1px solid black ;
+}
+a{
+    font-weight: bolder;
+}
